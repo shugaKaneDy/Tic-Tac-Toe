@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Toc Toe</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Roboto:wght@400;500;700&family=Sigmar+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <link rel="stylesheet" href="styles/tic-tac-toe.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+</head>
+<body>
+
+  <div class="">
+    <div class="header">
+      <p class="logo"><span class="ig">IG</span><span class="rest-logo">ames</span></p>
+      <div class="middle">
+        <span class="material-symbols-outlined white">
+          account_circle
+        </span>
+        <p class="middle-text">
+          Hello, User1
+        </p>
+      </div>
+      <div class="right">
+        <p class="right-text">More Games and Apps</p>
+        <span class="material-symbols-outlined">
+          more_horiz
+        </span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="title">
+    Tic Tac Toe
+  </div>
+  
+  <div class="you-computer">
+    <p class="you">You: <b>X</b></p>
+    <p class="computer">Computer: <b>O</b></p>
+  </div>
+
+  <div class="game-container">
+    <div>
+      <button class="js-button-0">
+      </button>
+      <button class="js-button-1">
+      </button>
+      <button class="js-button-2">
+      </button>
+    </div>
+    <div>
+      <button class="js-button-3">
+      </button>
+      <button class="js-button-4">
+      </button>
+      <button class="js-button-5">
+      </button>
+    </div>
+    <div>
+      <button class="js-button-6">
+      </button>
+      <button class="js-button-7">
+      </button>
+      <button class="js-button-8">
+      </button>
+    </div>
+  </div>
+
+  <div class="status">
+    <!-- <div class="winner">
+      <div class="winner-container">
+        You Win!
+      </div>
+    </div> -->
+  </div>
+
+  <div class="score-data">
+    <div class="wins">
+      <p class="wins-text">
+        Wins:
+      </p>
+      <p class="wins-number js-wins">
+        0
+      </p>
+    </div>
+    <div class="losses">
+      <p class="wins-text">
+        Losses: 
+      </p>
+      <p class="wins-number js-losses">
+        0
+      </p>
+    </div>
+  </div>
+
+  <div class="reset-container">
+    <button class="js-reset-game">Reset Game</button>
+    <button class="js-reset-score">Reset Score</button>
+  </div>
+
+
+  <script src="scripts/tic-tac-toe.js"></script>
+</body>
+</html>
